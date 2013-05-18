@@ -1,4 +1,10 @@
 Mntr::Application.routes.draw do
+  get 'about' => 'pages#about'
+  get 'SignUpMentors' => 'pages#SignUpMentors'
+  get 'SignUpMentees' => 'pages#SignUpMentees'
+
+  root :to => 'pages#home'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
