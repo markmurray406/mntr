@@ -1,7 +1,7 @@
 Mntr::Application.routes.draw do
   get 'about' => 'pages#about'
-  get 'SignUpMentors' => 'pages#SignUpMentors'
-  get 'SignUpMentees' => 'pages#SignUpMentees'
+  get 'mentors' => 'pages#mentors'
+  get 'mentees' => 'pages#mentees'
 
   root :to => 'pages#home'
 
