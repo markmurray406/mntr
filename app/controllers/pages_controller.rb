@@ -13,5 +13,9 @@ class PagesController < ApplicationController
   def mentees
   	#content
   end	
+
+  def betax
+    #content
+  end  
   	
 end

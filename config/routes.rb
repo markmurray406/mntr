@@ -2,6 +2,8 @@ Mntr::Application.routes.draw do
   get 'about' => 'pages#about'
   get 'mentors' => 'pages#mentors'
   get 'mentees' => 'pages#mentees'
+  # betax is the test page for the website
+  get 'betax' => 'pages#betax'
 
   root :to => 'pages#home'
 
