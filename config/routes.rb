@@ -1,4 +1,9 @@
 Mntr::Application.routes.draw do
+  resources :micropost2s
+  resources :micropost1s
+  resources :users
+
+
   get 'about' => 'pages#about'
   get 'mentors' => 'pages#mentors'
   get 'mentees' => 'pages#mentees'
